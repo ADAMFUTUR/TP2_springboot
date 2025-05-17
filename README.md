@@ -1,12 +1,12 @@
-# 🏥 Rapport Technique — TP Gestion Hospitalière avec Spring Boot
+#  Rapport Technique — TP Gestion Hospitalière avec Spring Boot
 
-## 📌 Introduction
+##  Introduction
 
 Ce projet vise à développer une application de gestion hospitalière à l’aide de Spring Boot, Spring Data JPA, Lombok et MySQL. Il modélise les entités clés d’un établissement hospitalier — patients, médecins, rendez-vous et consultations — avec des relations adéquates. Une gestion de rôles utilisateurs (`ADMIN`, `USER`) est également intégrée pour ouvrir la voie à l’ajout futur d’une sécurité basée sur Spring Security.
 
 ---
 
-## 🧩 Modélisation des Entités
+## Modélisation des Entités
 
 ### 1. `Patient`
 
@@ -147,7 +147,7 @@ server.port=8080
 
 ---
 
-## 🚀 Initialisation des Données
+##  Initialisation des Données
 
 ### Classe principale : `HospitalAppApplication`
 
@@ -206,7 +206,7 @@ public class HospitalAppApplication implements CommandLineRunner {
 
 ---
 
-## 👤 Test Utilisateur & Rôle (avec utilisateur `ADAM`)
+##  Test Utilisateur & Rôle (avec utilisateur `ADAM`)
 
 ```java
 package com.fsm.hospital;
@@ -299,7 +299,7 @@ public class HospitalApplication {
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 Ce projet a permis de :
 
