@@ -131,7 +131,7 @@ public enum STATUS {
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Fichier `application.properties`
 
